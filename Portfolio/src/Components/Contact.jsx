@@ -4,12 +4,16 @@ import theme_pattern from '../assets/theme_pattern.svg';
 import mail_icon from '../assets/mail_icon.svg';
 import location_icon from '../assets/location_icon.svg';
 import call_icon from '../assets/call_icon.svg';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
   const [result, setResult] = useState(""); // ✅ Fix: define state
 
- 
-
+  const [state, handleSubmit] = useForm("xwpnebad");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
+  
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
@@ -42,7 +46,7 @@ const Contact = () => {
         </div>
 
         {/* Right Section */}
-        <form onSubmit={onSubmit} className="contact-right">
+        <form onSubmit={handleSubmit} className="contact-right">
           <label>Your Name</label>
           <input type="text" placeholder="Enter Your Name" name="name" required />
 
