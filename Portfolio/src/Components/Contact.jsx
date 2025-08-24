@@ -18,16 +18,16 @@ const Contact = () => {
       method: "POST",
       body: formData,
     });
-
+    
     const data = await response.json();
-
+    console.log(data); // Debugging
+    
     if (data.success) {
-      alert("Form Submitted Successfully ✅");
+      setResult("Form Submitted Successfully ✅");
       event.target.reset();
     } else {
-      console.error("Error:", data);
-      setResult("Something went wrong. Please try again.");
-    }
+      setResult(data.message || "Something went wrong. Please try again.");
+    }    
   };
 
   return (
