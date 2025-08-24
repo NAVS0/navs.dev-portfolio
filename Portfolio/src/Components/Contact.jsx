@@ -8,27 +8,7 @@ import call_icon from '../assets/call_icon.svg';
 const Contact = () => {
   const [result, setResult] = useState(""); // ✅ Fix: define state
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-
-    const formData = new FormData(event.target);
-    formData.append("access_key", "5173b02c-02da-4d8c-90c7-65e7771a0143");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-    
-    const data = await response.json();
-    console.log(data); // Debugging
-    
-    if (data.success) {
-      setResult("Form Submitted Successfully ✅");
-      event.target.reset();
-    } else {
-      setResult(data.message || "Something went wrong. Please try again.");
-    }    
-  };
+ 
 
   return (
     <div id="contact" className="contact">
