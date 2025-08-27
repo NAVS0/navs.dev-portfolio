@@ -4,8 +4,14 @@
 }
 
 body{
-  height: 100vh;
-  background: #161513;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(circle at 40% 20%, #2B0C5C, transparent 60%),
+  radial-gradient(circle at 60% 10%, #3C1A78, transparent 60%),
+  linear-gradient(0deg, #0A0214, #120E2A);
+  background-blend-mode: screen;
   color: white;
   font-family: 'outfit';
 }
+

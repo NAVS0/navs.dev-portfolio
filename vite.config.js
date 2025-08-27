@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/navs.dev-portfolio/",
   server: {
     open: true,
-    port: 300, // 👈 fixed typo
+    port: 5173, // 👈 fixed typo
   },
 });

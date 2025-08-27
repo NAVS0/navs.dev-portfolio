@@ -5,6 +5,10 @@
     margin: 20px 170px;
 }
 
+.navslogo{
+    width: 130px;
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -16,7 +20,7 @@
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: #7322ff;
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
@@ -50,10 +54,7 @@
 .nav-mob-open{
     display: none;
 }
-@media(max-width:768px){
-    .navbar{
-        margin: 20px 50px;
-    }
+@media(max-width:520px){
     .nav-connect{
         display: none;
     }

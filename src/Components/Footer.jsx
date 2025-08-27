@@ -1,6 +1,7 @@
 import React, { use } from "react";
 import './Footer.css'
-import footer_logo from '../assets/footer_logo.svg'
+import navslogo from '../assets/navslogo.svg'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import user_icon from '../assets/user_icon.svg'
 
 const Footer = () => {
@@ -8,15 +9,11 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-top">
                 <div className="footer-left">
-                    <img src={footer_logo} alt="" />
-                    <p>I’m a frontend developer and designer who loves creating clean, modern, and user-friendly digital experiences. My focus is on building websites and apps that not only look great but also work seamlessly across devices.</p>
+                    <img src={navslogo} alt="" className="footerlogo"/>
+                    <p>I’m a frontend developer and designer who loves creating clean, modern, and user-friendly digital experiences. <br />My focus is on building websites and apps that not only look great but also work seamlessly across devices.</p>
                 </div>
                 <div className="footer-top-right">
-                    <div className="footer-email-input">
-                        <img src={user_icon} alt="" />
-                        <input type="email" placeholder="Enter your email"/>
-                    </div>
-                    <div className="footer-subscribe">Subscribe</div>
+                <AnchorLink className='footer-subscribe' offset={50} href='#contact'>Connect With Me</AnchorLink>
                 </div>
             </div>
             <hr />

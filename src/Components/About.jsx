@@ -16,31 +16,26 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I’m a frontend developer and designer who loves creating clean, modern, and user-friendly digital experiences. My focus is on building websites and apps that not only look great but also work seamlessly across devices.</p>
-                        <p>With a passion for blending design and technology, I enjoy turning ideas into functional and engaging products. I’m always exploring new tools and trends to push creativity and deliver solutions that stand out.</p>
+                        <p>I’m a Frontend Developer & Designer passionate about creating clean, modern, and user-friendly digital experiences. I specialize in building responsive websites and applications that look great and work seamlessly across devices.</p>
+                        <p>With experience as a Frontend Developer, Web Designer, and Freelance Creator, I’ve worked on projects ranging from business websites to custom digital solutions. These roles have allowed me to strengthen both my design and development skills, enabling me to deliver products that balance creativity, functionality, and performance.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "70%"}} /></div>
-                        <div className="about-skill"><p>React JS</p><hr style={{width: "70%"}} /></div>
-                        <div className="about-skill"><p>JavaScript</p><hr style={{width: "60%"}} /></div>
+                        <div className="about-skill"><p>JavaScript</p><hr style={{width: "70%"}} /></div>
+                        <div className="about-skill"><p>React JS</p><hr style={{width: "60%"}} /></div>
                         <div className="about-skill"><p>C#</p><hr style={{width: "50%"}} /></div>
                     </div>
                 </div>
             </div>
             <div className="about-achievements">
                 <div className="about-achievement">
-                    <h1>10+</h1>
+                    <h1>1+</h1>
                     <p>YEARS OF EXPERIENCE</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>90+</h1>
-                    <p>PROJECT COMPETED</p>
-                </div>
-                <hr />
-                <div className="about-achievement">
-                    <h1>15+</h1>
-                    <p>HAPPY CLIENTS</p>
+                    <h1>5+</h1>
+                    <p>PROJECT COMPLETED</p>
                 </div>
             </div>
         </div>

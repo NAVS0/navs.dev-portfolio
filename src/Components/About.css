@@ -3,12 +3,13 @@
 }
 
 .about{
+    background: #0A0214;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    padding: 80px 170px;
 }
 
 .about-title{
@@ -44,7 +45,7 @@
     flex-direction: column;
     gap: 20px;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .about-skills{
@@ -72,7 +73,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background: linear-gradient(270deg, #00FFEC 10.41%, #8863c9 60.25%); 
 }
 
 .about-achievements{
@@ -93,7 +94,7 @@
 .about-achievement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%); 
+    background: linear-gradient(270deg, #00FFEC 10.41%, #8863c9 60.25%); 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -114,11 +115,10 @@
     transition: 0.5s;
 }
 
-@media(max-width:768px){
+@media(max-width:520px){
     .about{
-        gap: 80px;
-        margin: 50px 70px;
-        align-items: start;
+        width: 100vh;
+        align-items: left;
     }
     .about-title h1{
         font-size: 50px;

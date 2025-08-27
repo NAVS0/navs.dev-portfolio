@@ -1,10 +1,11 @@
 .contact{
+    background: #0A0214;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    padding: 80px 170px;
 }
 
 .contact-title{
@@ -38,7 +39,7 @@
 .contact-left h1{
     font-size: 80px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background: linear-gradient(270deg, #00FFEC 10.41%, #8863c9 60.25%); 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,7 +106,7 @@
     border: none;
     color: white;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background: #7322ff; 
     font-size: 22px;
     padding: 20px 60px;
     margin-bottom: 50px;
@@ -118,11 +119,9 @@
     transition: 0.3s;
 }
 
-@media(max-width:768px){
+@media(max-width:520px){
     .contact{
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
+        align-items: left;
     }
     .contact-title h1{
         padding: 0;

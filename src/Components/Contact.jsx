@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
-        <h1>Get in touch</h1>
+        <h1>Work With Me</h1>
         <img src={theme_pattern} alt="" />
       </div>
 
@@ -26,9 +26,7 @@ const Contact = () => {
         <div className="contact-left">
           <h1>Let’s Connect</h1>
           <p>
-            Have an idea, a question, or just want to say hi? Drop me a message
-            anytime! I’d be happy to chat and explore how we can create
-            something awesome together.
+          Looking to collaborate or have a question in mind? Drop me a message—I’d be happy to connect and discuss how we can work together.
           </p>
           <div className="contact-details">
             <div className="contact-detail">
