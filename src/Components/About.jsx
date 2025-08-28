@@ -20,11 +20,12 @@ const About = () => {
                         <p>With experience as a Frontend Developer, Web Designer, and Freelance Creator, I’ve worked on projects ranging from business websites to custom digital solutions. These roles have allowed me to strengthen both my design and development skills, enabling me to deliver products that balance creativity, functionality, and performance.</p>
                     </div>
                     <div className="about-skills">
-                        <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "70%"}} /></div>
-                        <div className="about-skill"><p>JavaScript</p><hr style={{width: "70%"}} /></div>
-                        <div className="about-skill"><p>React JS</p><hr style={{width: "60%"}} /></div>
-                        <div className="about-skill"><p>C#</p><hr style={{width: "50%"}} /></div>
+                    <div className="about-skill"><p>HTML & CSS</p><hr className="skill-bar html" /></div>
+                    <div className="about-skill"><p>JavaScript</p><hr className="skill-bar js" /></div>
+                    <div className="about-skill"><p>React JS</p><hr className="skill-bar react" /></div>
+                    <div className="about-skill"><p>C#</p><hr className="skill-bar csharp" /></div>
                     </div>
+
                 </div>
             </div>
             <div className="about-achievements">

@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import MyWork from "./Components/MyWork";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import './index.css';
 
 
 

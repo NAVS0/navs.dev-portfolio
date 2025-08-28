@@ -68,6 +68,7 @@
 
 @media(max-width: 520px){
     .mywork{
+        width: 100%;
         align-items: left;
     }
     .mywork-title h1{

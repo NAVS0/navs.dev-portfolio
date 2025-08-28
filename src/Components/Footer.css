@@ -55,6 +55,7 @@
 
 @media(max-width:520px){
     .footer{
+        width: 100%;
         align-self: left;
     }
     .footer-top{

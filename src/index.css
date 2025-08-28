@@ -1,17 +1,36 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* prevents elements from overflowing */
 }
 
-body{
-  width: 100%;
+html, body {
+  width: 100%;           /* always match screen width */
+  max-width: 100vw;      /* prevent extra width */
+  overflow-x: hidden;    /* disable horizontal scroll */
+  min-height: 100vh;     /* full screen height */
+  font-family: 'Outfit', sans-serif;
+  color: white;
+}
+
+body {
   display: flex;
   align-items: center;
+  justify-content: center;
   background: radial-gradient(circle at 40% 20%, #2B0C5C, transparent 60%),
-  radial-gradient(circle at 60% 10%, #3C1A78, transparent 60%),
-  linear-gradient(0deg, #0A0214, #120E2A);
+    radial-gradient(circle at 60% 10%, #3C1A78, transparent 60%),
+    linear-gradient(0deg, #0A0214, #120E2A);
   background-blend-mode: screen;
-  color: white;
-  font-family: 'outfit';
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+/* Mobile responsive adjustments */
+@media (max-width: 520px) {
+  body {
+    flex-direction: column; /* stack content vertically */
+    text-align: center;
+    padding: 0 10px;        /* small side padding */
+  }
+}

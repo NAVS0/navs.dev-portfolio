@@ -55,20 +55,29 @@
     display: none;
 }
 @media(max-width:520px){
+    .navbar{
+        padding-left: 20px;
+        margin: 20px 130px;
+        width: 100%;
+    }
     .nav-connect{
         display: none;
     }
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right: 40px;
+        width: 25px;
+    }
+    .navslogo{
+        width: 80px;
     }
     .nav-mob-close{
         display: block;
         position: relative;
         top: 30px;
-        left: 290px;
-        width: 30px;
+        left: 220px;
+        width: 25px;
     }
     .nav-menu{
         position: fixed;
@@ -76,15 +85,18 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background: #1f0016;
-        width: 350px;
+        background: radial-gradient(circle at 40% 10%, #2B0C5C, transparent 60%),
+        radial-gradient(circle at 60% 20%, #3C1A78, transparent 60%),
+        linear-gradient(0deg, #0A0214, #120E2A);
+        background-blend-mode: screen;
+        width: 280px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
     }
     .nav-menu li{
-        font-size: 30px;
+        font-size: 24px;
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
