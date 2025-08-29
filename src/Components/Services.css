@@ -13,9 +13,7 @@
 }
 
 .services-title h1{
-    padding: 0px 30px;
     font-size: 80px;
-    font-weight: 600;
 }
 
 .services-title img{
@@ -41,7 +39,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin-bottom: 40px;
 }
 
 .services-format h3{
@@ -85,11 +82,10 @@
         align-items: left;
     }
     .services-title h1{
-        font-size: 50px;
+        font-size: 38px;
     }
-    .services-title img{
-        width: 130px;
-        margin-bottom: -20px;
+    .services-title img{    
+    display: none;
     }
     .services-format{
         gap: 5px;

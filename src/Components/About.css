@@ -23,7 +23,6 @@
 }
 
 .about-title img{
-    position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
@@ -32,11 +31,10 @@
 .about-sections{
     display: flex;
 }
-.about-left{
-    padding-right: 20px;
-}
 
 .about-right{
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -89,7 +87,7 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .about-achievement{
@@ -130,7 +128,7 @@
         align-items: left;
     }
     .about-title h1{
-        font-size: 40px;
+        font-size: 38px;
     }
     .about-title img{
         width: 130px;

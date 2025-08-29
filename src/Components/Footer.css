@@ -19,7 +19,6 @@
 .footer-top-right{
     display: flex;
     align-items: center;
-    gap: 35px;
 }
 
 .footerlogo{
@@ -56,11 +55,20 @@
 @media(max-width:520px){
     .footer{
         width: 100%;
-        align-self: left;
     }
     .footer-top{
         flex-direction: column;
         gap: 50px;
+    }
+    .footerlogo{
+        width: 280px;
+        padding-bottom: 20px;
+    }
+    .footer-top-right{
+        justify-content: center;
+    }
+    .footer-subscribe{
+        font-size: 14px;
     }
     .footer-botttom{
         display: flex;
