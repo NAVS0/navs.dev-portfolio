@@ -72,6 +72,9 @@
     .navslogo{
         width: 90px;
     }
+    .anchor-link{
+        width: 60px;
+    }
     .nav-mob-close{
         display: block;
         position: relative;

@@ -98,16 +98,23 @@
   }
 
   .hero-action {
-    justify-content: center;
     gap: 12px;
   }
 
   .hero-connect,
   .hero-resume {
+    display: flex;             /* centers text inside */
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
     font-size: 8px;
-    padding: 8px 12px;
-    display: flex;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
+
+
 
   .right-img {
     justify-content: flex-start;
