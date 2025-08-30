@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="hero-content">
         <h1>
           <span>I'm Rogel T. Navarro Jr., </span>
-          Frontend <br /> Developer Based in Philippines
+          a Frontend <br /> Developer based in Philippines.
         </h1>
         <p>
           I’m a Frontend Developer & Designer passionate about creating clean,
