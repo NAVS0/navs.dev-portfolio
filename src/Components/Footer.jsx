@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-left">
                     <img src={navslogo} alt="" className="footerlogo"/>
-                    <p>I’m a frontend developer and designer who loves creating clean, modern, and user-friendly digital experiences. <br />My focus is on building websites and apps that not only look great but also work seamlessly across devices.</p>
+                    <p>I’m a Web Developer who loves building clean, modern, and user-friendly digital experiences. <br /> My focus is on creating websites and applications that not only look visually appealing but also perform seamlessly across all devices.</p>
                 </div>
                 <div className="footer-top-right">
                 <AnchorLink className='footer-subscribe' offset={50} href='#contact'>Work With Me</AnchorLink>
