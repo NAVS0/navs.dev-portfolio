@@ -30,8 +30,16 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Portfolio</p></AnchorLink>{menu==="work"? <img src={underline} alt=''/>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"? <img src={underline} alt=''/>:<></>}</li> 
         </ul>
-          <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>My Resume</AnchorLink>
-          </div>
+        <div className="nav-connect">
+  <a
+    className="anchor-link"
+    href="https://drive.google.com/file/d/1c8oglVgp9rb3nnF5Hkurz0vZrs45b3OB/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    My Resume
+  </a>
+</div>
     </div>
   )
 }
