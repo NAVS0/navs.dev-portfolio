@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="nav-connect">
   <a
     className="anchor-link"
-    href="https://drive.google.com/file/d/1c8oglVgp9rb3nnF5Hkurz0vZrs45b3OB/view?usp=drive_link"
+    href="https://drive.google.com/file/d/1IxghXy9v9Z-bcnPgo6sl7EnWp16vhpru/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
   >
